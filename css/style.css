@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Inter, sans-serif;
+  text-decoration: none;
+}
+#header {
+  padding-block: 30px;
+}
+.container {
+  max-width: 1220px;
+  width: 100%;
+  margin-inline: auto;
+}
+p {
+  color: rgba(91, 94, 109, 1);
+}
+.header h1 {
+  font-family: Roboto, sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav {
+  display: flex;
+  gap: 50px;
+}
+nav a {
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+}
+.header-btn {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header-btn button {
+  width: 130px;
+  height: 40px;
+  background: rgba(5, 85, 255, 1);
+  border-radius: 50px;
+  color: aliceblue;
+  font-size: 14px;
+  border: none;
+}
+.header-btn a {
+  font-size: 17px;
+  color: black;
+}
+#top {
+  padding-block: 60px;
+}
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.top h1 {
+  text-align: center;
+  font-size: 80px;
+  font-weight: 800;
+  color: rgba(5, 0, 56, 1);
+}
+.top p {
+  width: 430px;
+  line-height: 24px;
+  text-align: center;
+}
+.top-btn {
+  display: flex;
+  gap: 10px;
+}
+.top-btn button {
+  width: 150px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: blue;
+  border: none;
+  color: #fff;
+}
+.top-btn button:last-child {
+  width: 150px;
+  background: green;
+}
+.top-img {
+  display: flex;
+  gap: 80px;
+}
+.top h2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(91, 94, 109, 1);
+}
+#class {
+  padding-block: 60px;
+}
+.class {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+.class h1 {
+  width: 640px;
+  font-size: 24px;
+}
+.class p {
+  width: 620px;
+  line-height: 24px;
+}
+.class button {
+  width: 220px;
+  height: 40px;
+  border-radius: 30px;
+  background: rgba(5, 85, 255, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  padding-left: 20px;
+}
+.class ion-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background: #fff;
+  border: none;
+}
+.develop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.develop-text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+.develop-text P {
+  width: 390px;
+  line-height: 24px;
+}
+.develop-text h1 {
+  font-size: 40px;
+  font-weight: 800;
+}
+.develop-text a {
+  font-size: 16px;
+  color: black;
+}
+.develop img {
+  position: relative;
+}
+
+#word {
+  background: rgba(248, 248, 250, 1);
+  padding-block: 35px;
+}
+
+.word-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding-block: 35px;
+}
+
+.word {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.word .box {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 10px;
+  width: 360px;
+  height: 370px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 15px;
+}
+.box-info {
+  display: flex;
+  gap: 15px;
+}
+
+.box-logo {
+  display: flex;
+  gap: 160px;
+}
+
+.box-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.box-text p {
+  width: 360px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+#footer {
+  background: rgb(18, 4, 48);
+}
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.footer-text h1 {
+  font-size: 45px;
+  font-weight: 900;
+  line-height: 85px;
+  text-align: center;
+  color: #fff;
+}
+.footer-btn input {
+  width: 450px;
+  height: 40px;
+  border-radius: 20px;
+  background: none;
+  color: #fff;
+  border-color: #ffffff58;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0px;
+}
+.footer-btn input::placeholder {
+  padding-left: 10px;
+}
+.footer-btn button {
+  width: 190px;
+  height: 44px;
+  border-radius: 0px 10px 10px 0px;
+  background: rgba(5, 85, 255, 1);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  border: none;
+}
+.footer-btn {
+  display: flex;
+  gap: 0px;
+}
